@@ -31,7 +31,7 @@
         }
 
         &__nav-link {
-            display: inline-block;
+            display: block;
             padding: 1rem 2rem;
             background-color: violet;
             text-decoration: none;
@@ -46,6 +46,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        height: 3.5rem;
 
         &__logo-container {
             width: 18.75rem;
@@ -78,6 +79,15 @@
         &__carrito-container {
             flex: 0 0 3rem;
             background-color: bisque;
+            text-align: center;
+            line-height: 3.5rem;
+            font-size: 1.45rem;
+
+            &__link {
+                color: #000;
+            }
+
+
         }
 
     }

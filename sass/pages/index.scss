@@ -2,7 +2,25 @@
     
     .section-cards {
         background-color: #9cdbdd;
-        padding: 1rem;
+        
+
+        &__header {
+            background: url("/img/Inicio/Imagen-Inicio.webp")no-repeat;
+            background-size: cover;
+            height: 44rem;
+            text-align: center;
+            padding: 4rem;
+            
+            h2 {
+                margin-top: 2rem;
+            }
+
+            p {
+                margin-top: 2rem;
+                margin-bottom: 1.5rem;
+            }
+
+        }
     }
 
     .cards-container {
@@ -26,6 +44,7 @@
         background-color: #0CC042;
         text-align: center;
         font-size: 1.49rem;
+        z-index: 2;
        
         &__link {
             color: #fff;

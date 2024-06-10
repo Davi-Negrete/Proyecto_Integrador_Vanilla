@@ -7,6 +7,9 @@
     .main-header {
         display: flex;
         flex-direction: column;
+        position: sticky;
+        top: 0;
+        z-index: 3;
         
     }
     
@@ -18,11 +21,13 @@
        
     .nav-bar {
         background-color: mediumaquamarine;
+        padding: 0.5rem;
       
         &__nav-list {
             display: flex;
             list-style-type: none;
             justify-content: center;
+            gap: 1rem;
         }
 
         &__nav-item {
@@ -32,9 +37,10 @@
 
         &__nav-link {
             display: block;
-            padding: 1rem 2rem;
+            padding: 0.9rem 2rem;
             background-color: violet;
             text-decoration: none;
+            color: black;
         }
 
     }
@@ -46,15 +52,18 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        height: 3.5rem;
+        height: 3.8rem;
 
         &__logo-container {
             width: 18.75rem;
             height: 3.75rem;
+            text-align: center;
+            line-height: 3.7rem;
+            font-size: 1.35rem;
         }
 
         &__form-container {
-            padding: 1rem;
+            padding: 0.8rem;
             background-color: burlywood;
             display: flex;
             flex-direction: row;
@@ -65,15 +74,21 @@
 
         &__form-label {
             background-color: orange;
+            height: 2rem;
+            padding: 0.22rem;
         }
 
         &__form-search {
             background-color: #cbcbcb;
             width: 70%;
+            height: 2rem;
+            border: 1px solid #D3D3D3;
         }
 
         &__form-submit {
             background-color: #e6e61b;
+            height: 2rem;
+            border: 1px solid #D3D3D3;
         }
 
         &__carrito-container {
@@ -81,7 +96,7 @@
             background-color: bisque;
             text-align: center;
             line-height: 3.5rem;
-            font-size: 1.45rem;
+            font-size: 1.3rem;
 
             &__link {
                 color: #000;

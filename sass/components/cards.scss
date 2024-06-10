@@ -36,6 +36,7 @@
             &__link {
                 color: #000;
             }
+
         }
 
         &__image-container {
@@ -50,8 +51,22 @@
             object-fit: cover;
         }
 
-      
+        &__content {
+            padding: 0.35rem;
+            margin-top: 2px;
 
+            &__heading {
+                margin-bottom: 2px;
+                text-align: center
+            }
+
+            &__description {
+                margin-top: 2px;
+                text-align: center;
+            }
+        
+        }
+      
 
     }
 

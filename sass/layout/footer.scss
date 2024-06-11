@@ -5,18 +5,19 @@
     .footer {
         display: flex;
         flex-direction: column;
+        width: 100%;
+        background-color: #3C3C3C;
     
     }
 
     /* --------------------------- FOOTER__SECCION-0----------------------- */
 
     .footer__seccion-0 {
-        background-color: gold;
-        padding: 0.5rem;
+        padding: 0.6rem;
+        width: 100%;
     
 
         &__box-0 {
-            background-color: #ffbd8e;
             display: flex;
             flex-direction: row;
             justify-content: center;
@@ -26,19 +27,36 @@
         }
 
         &__box-1 {
-            background-color: cadetblue;
             padding: 0.5rem;
+            color: #fff;
+            font-size: 1.7em;
         }
 
         &__box-2 {
-            background-color: violet;
-            padding: 0.5rem;
+            display: block;
+            padding: 0.7rem;
+            background-color: #3C3C3C;
+            border: 1.5px solid #fff;
+            border-radius: 3px;
+          
 
             &__link {
-                color: black;
-                padding: 0.5rem;
+                color: #fff;
+                outline: none;
+                padding: 0.99rem;
                 text-decoration: none;
                 font-weight: bold;
+                font-size: 1.6em;
+
+                &:hover {
+                    color: #3C3C3C;
+                    background-color:#fff;
+                    padding: 1.5rem;
+                    border-radius: 3px;
+                    font-weight: 500;
+                    transition-duration: 1.25s;
+                }
+
             }
 
         }
@@ -48,46 +66,69 @@
     hr {
         background-color: #fff;
         width: 100%;
-        height: 0.55rem;
+        height: 0.25rem;
+        border:none
     }
    
     /* --------------------------- FOOTER__SECCION-1 ----------------------- */
 
     .footer__seccion-1 {
-        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-top: 0.4rem;
+        padding-bottom: 0.4rem;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: flex-start;
         gap: 1.75rem;
-        background-color: rgb(254, 168, 57);
+        background-color:#3C3C3C;;
+        width: 100%;
+         
         
 
         &__box-1 {
             padding: 1rem;
-            background-color: bisque;
+            padding-top: 5rem;
             width: 30rem;
+            width: 30rem;
+            height: 20rem;
+            width: 30rem;         
             height: 20rem;
 
             &__h3 {
                 padding: 0.5rem;
-                background-color: aqua;
                 text-align: center;
+                color: #fff;
+                font-size: 1.35em;
             }
 
             &__button {
                 display:block;
-                margin-top: 4rem;
+                margin-top: 2.25rem;
                 margin-left: auto;
                 margin-right: auto;
                 padding: 0.8rem;
-                background-color:darkseagreen;
+                background-color: #3C3C3C;
+                border: 1.5px solid #fff;
+                border-radius: 3px;
+              
                 
                 &__link {
+                    color: #fff;
+                    outline: none;
+                    padding: 0.99rem;
                     text-decoration: none;
-                    color: black;
                     font-weight: bold;
-                    padding: 0.5rem;
+                    font-size: 1.6em;
+
+                    &:hover {
+                        color: #3C3C3C;
+                        background-color:#fff;
+                        padding: 2rem;
+                        border-radius: 3px;
+                        font-weight: 500;
+                        transition-duration: 1.25s;
+                    }
                   
                 }
 
@@ -97,37 +138,42 @@
        
         &__box-2 {
             padding: 1rem;
-            background-color: #92dff9;
             width: 30rem;
 
             &__h3 {
-                background-color: azure;
+                background-color:#3c3c3c;
                 padding: 0.8rem;
                 text-align: center;
+                font-size: 1.35em;
+                color: #fff;
             }
 
             &__p {
                 padding: 0.8rem;
-                background-color: aquamarine;
+                background-color: #3c3c3c;
                 margin-top: 1rem;
                 margin-left: auto;
                 margin-right: auto;
+                font-size: 1em;
+                color: #fff;
+                text-align: justify;
                
             }
+            
         }
 
         &__box-3 {
             padding: 1rem;
-            background-color: #9b9386;
+
 
             &__h3 {
                 padding: 0.5rem;
-                background-color: #abd3d4;
+                color: #fff;
+                font-size: 1.35em;
             }
 
             &__redes-sociales {
                 padding: 1rem;
-                background-color: #fff;
                 margin: 4rem auto;
                 display: flex;
                 flex-direction: row;
@@ -136,16 +182,28 @@
 
                 .icono-instagram__link {
                     font-size: 3.5rem;
-                    color: #fe3e30;
+                    color: #fff;
+
+                    &:hover {
+                        color: #D83088;
+                        transition-duration: 0.8s;
+                    }
                    
                 }
 
                 .icono-facebook__link {
                     font-size: 3.5rem;
-                    color: #1094F4;
+                    color: #fff;
+
+                    &:hover {
+                        color: #1094F4;
+                        transition-duration: 0.8s;
+                    }
                     
                 }
+
             }
+
         }
 
 
@@ -156,8 +214,9 @@
 
     .footer__seccion-2 {
         padding: 0.5rem;
+        padding-bottom: 0.8rem;
         text-align: center;
-        background-color: #34322e;
+        background-color: #3c3c3c;
         color: #fff;
         width: 100%;
 

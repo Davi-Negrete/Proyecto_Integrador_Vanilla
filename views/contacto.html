@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <title>Inicio</title>
+    </head> 
+
+    <body>
+        <header class="main-header">
+            <input type="checkbox" id="menu">
+      
+            <nav class="nav-bar">
+              <ul class="nav-bar__nav-list">
+                <li class="nav-bar__nav-item">
+                  <a href="../index.html" class="nav-bar__nav-link">Inicio</a>
+                </li>
+                <li class="nav-bar__nav-item">
+                  <a href="alta.html" class="nav-bar__nav-link">Alta</a>
+                </li>
+                <li class="nav-bar__nav-item">
+                  <a href="nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+                </li>
+                <li class="nav-bar__nav-item">
+                  <a href="contacto.html" class="nav-bar__nav-link">Contacto</a>
+                </li>
+              </ul>
+            </nav> <!--?.nav-bar-->
+      
+            
+            <div class="search-bar">
+              <div class="search-bar__logo-container">La Mueblería <i class="fa-solid fa-couch"></i></div>
+              <form action="get" class="search-bar__form-container">
+                <label for="busqueda" class="search-bar__form-label">Buscar</label>
+                <input type="search" class="search-bar__form-search" id="busqueda">
+                <input type="submit" class="search-bar__form-submit" value="🔍">
+              </form>
+              <div class="search-bar__carrito-container"><a class="search-bar__carrito-container__link" href="carrito.html"><i class="fa-solid fa-cart-shopping"></i></a></div>
+              <div class="menu-toogle">
+                <label for="menu" class="menu-toogle__label">
+                  <span class="menu-toogle__top-bread"></span>
+                  <span class="menu-toogle__meat"></span>
+                  <span class="menu-toogle__bottom-bread"></span>
+                </label>
+              </div>
+            </div> <!--? .search-bar -->
+      
+        </header> <!--? main-header -->
+
+        <form class="form-contacto">
+
+            <h1 class="h1-contacto">Contáctate con nosotros</h1>
+            <p class="p-contacto">Por favor complete todos los campos con la información requerida:</p>
+  
+
+            <fieldset class="form-contacto__fieldset-personales">
+                
+                <legend class="form-contacto__legend-personales">Datos Personales</legend>
+
+                <label class="form-contacto__label-personales" for="nombre">Nombre:
+                    <input class="form-contacto__input-personales" type="text" id="nombre" name="nombre" required>
+                </label>
+
+
+                <label  class="form-contacto__label-personales" for="apellido">Apellido:
+                    <input class="form-contacto__input-personales" type="text" id="apellido" name="apellido" required>
+                </label>
+
+
+                <label  class="form-contacto__label-personales" for="correo">Correo:
+                    <input class="form-contacto__input-personales" type="email" id="correo" name="correo" required>
+                </label>
+
+
+                <label  class="form-contacto__label-personales" for="telefono">Teléfono:
+                    <input class="form-contacto__input-personales" type="text" id="telefono" name="telefono" required>
+                </label>
+
+
+            </fieldset>
+
+            <fieldset class="form-contacto__fieldset-consulta">
+              <legend class="form-contacto__legend-consulta">¿Cómo te ayudamos?</legend> 
+                
+                <label  class="form-contacto__label-consulta" for="consulta">Consulta:
+                    <textarea class="form-contacto__input-consulta" name="consulta" id="consulta" placeholder="Escríbenos tu pregunta aquí, o avísanos si deseas hacer un mueble a medida..." required></textarea>
+                </label>
+            
+            </fieldset>
+
+            <label class="form-contacto__label-términos">
+                <input class="form-contacto__input-términos" type="checkbox" required>
+                Acepto los <a class="form-contacto__link-términos" href="#">términos y condiciones</a>
+            </label>
+
+            <input  class="form-contacto__submit" value="ENVIAR" type="submit">
+        </form>
+
+        <div class="icono-whatsapp"><a class="icono-whatsapp__link" href="https://www.whatsapp.com/?lang=es" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></a></div>
+
+        <footer class="footer">
+
+            <div class="footer__seccion-0">
+      
+              <div class="footer__seccion-0__box-0">
+                <h3 class="footer__seccion-0__box-1">Siéntete libre de hacernos cualquier pregunta!</h3>
+                <button class="footer__seccion-0__box-2"><a class ="footer__seccion-0__box-2__link" href="contacto.html">CONTACTO</a></button>
+              </div>
+      
+            </div>
+      
+            <hr>
+      
+            <div class="footer__seccion-1">
+      
+              <div class="footer__seccion-1__box-1">
+                <h3 class="footer__seccion-1__box-1__h3">Mira cómo empezó nuestra historia y nuestra idea desde cero:</h3>
+                <button class="footer__seccion-1__box-1__button"><a  class="footer__seccion-1__box-1__button__link" href="nosotros.html">NOSOTROS</a></button>
+              </div>
+      
+              <div class="footer__seccion-1__box-2">
+                <h3 class="footer__seccion-1__box-2__h3">Aquí te dejamos una pequeña descripción de Nosotros:</h3>
+                <div class="footer__seccion-1__box-2__p">
+                  <p>La Mueblería S.A. <i class="fa-solid fa-couch"></i> es una compañía dedicada al diseño,
+                    fabricación, comercialización e instalación de muebles, desde una mirada decorativa como cocinas, comedores,
+                     salas de estar, salas de trabajo y armarios,  hasta una mirada de confort y relajación, como camas, sofas y baños.</p>
+                </div>
+              </div>
+      
+              <div class="footer__seccion-1__box-3">
+                <h3 class="footer__seccion-1__box-3__h3">Síguenos en nuestras Redes Sociales:</h3>
+                <div class="footer__seccion-1__box-3__redes-sociales">
+                  <a class="icono-instagram__link" href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                  <a class="icono-facebook__link" href="https://www.facebook.com/Meta/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                </div>    
+              </div>
+                  
+            </div>
+      
+            <div class="footer__seccion-2">
+              <small class="footer__seccion-2__small">&copy; 2024 <b>LA MUEBLERÍA <i class="fa-solid fa-couch"></i></b> - TODOS LOS DERECHOS RESERVADOS.</small>
+            </div>
+              
+        </footer>
+    
+        <script type="module" src="/main.js"></script>
+    </body>
+</html>

@@ -49,11 +49,12 @@
       
         </header> <!--? main-header -->
 
-        <h1 class="h1-contacto">Contáctate con nosotros</h1>
-        <p class="p-contacto">Por favor complete todos los campos con la información requerida</p>
-
-        
         <form class="form-contacto">
+
+            <h1 class="h1-contacto">Contáctate con nosotros</h1>
+            <p class="p-contacto">Por favor complete todos los campos con la información requerida:</p>
+  
+
             <fieldset class="form-contacto__fieldset-personales">
                 
                 <legend class="form-contacto__legend-personales">Datos Personales</legend>
@@ -68,7 +69,7 @@
                 </label>
 
 
-                <label  class="form-contacto__label-personales" for="correo">Correo electrónico:
+                <label  class="form-contacto__label-personales" for="correo">Correo:
                     <input class="form-contacto__input-personales" type="email" id="correo" name="correo" required>
                 </label>
 
@@ -81,20 +82,20 @@
             </fieldset>
 
             <fieldset class="form-contacto__fieldset-consulta">
-            <legend class="form-contacto__legend-consulta">Coméntanos en cómo te podemos ayudar</legend> 
+              <legend class="form-contacto__legend-consulta">¿Cómo te ayudamos?</legend> 
                 
                 <label  class="form-contacto__label-consulta" for="consulta">Consulta:
-                    <textarea class="form-contacto__input-consulta" name="consulta" id="consulta" placeholder="Escríbenos tu pregunta aquí." required></textarea>
+                    <textarea class="form-contacto__input-consulta" name="consulta" id="consulta" placeholder="Escríbenos tu pregunta aquí..." required></textarea>
                 </label>
             
             </fieldset>
 
             <label class="form-contacto__label-términos">
-                <input class="form-contacto__input-términos" type="checkbox">
-                Acepto los <a href="#">términos y condiciones</a>
+                <input class="form-contacto__input-términos" type="checkbox" required>
+                Acepto los <a class="form-contacto__link-términos" href="#">términos y condiciones</a>
             </label>
 
-            <input  class="form-contacto__submit" value="Enviar" type="submit">
+            <input  class="form-contacto__submit" value="ENVIAR" type="submit">
         </form>
 
         <div class="icono-whatsapp"><a class="icono-whatsapp__link" href="https://www.whatsapp.com/?lang=es" target="_blank"><i class="fa-brands fa-whatsapp fa-2x"></i></a></div>

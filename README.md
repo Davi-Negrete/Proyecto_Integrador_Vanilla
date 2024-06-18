@@ -1,21 +1,7 @@
-## Pasos para arracar el proyecto
-```sh
-npm create vite@latest ./ -- --template vanilla
-``` 
-## Instalar las dependencias (SASS)
-```sh
-npm i sass -D
-```
-## Creamos el archivo vite.config.js
+## Proyecto Integrador-Etapa-1
 
-## Creamos el archivo Prettierrc
+## Luis David Negrete Otero
 
-## Creamos la carpeta de SASS 7 en 1
+### Link al Netlify : https://curious-beignet-de126d.netlify.app/
 
-## Pasos antes de desarrolar:
-
-1 Crear MAPA DE SITIO
-
-2 CREAR EL WIREFRAME
-
-3 USAR FIGMA O MIRO QUE TE PUEDAN AYUDAR O MEPEZAR DE CERO EL PROYECTO
+### Link al Repo en GitHub : https://github.com/Davi-Negrete/Integrador-Etapa-1

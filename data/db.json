@@ -1,0 +1,95 @@
+{
+    "productos": [
+
+        {   "id":1,
+            "nombre":"Cocina estilo Americana",
+            "foto":"img/Inicio/Cocina-1.webp",
+            "descripcion":"Esta incluye los muebles de alacena y gabetas, la barra o pantry y las sillas para que disfrutes de excelente compañía.Te ofrece todos los lujos de este estilo de cocina."
+        },
+
+        {   "id":2,
+            "nombre":"Cocina estilo Minimalista",
+            "foto": "/img/Inicio/Cocina-2.webp",
+            "descripcion":"Con esta tendrás todo lo esencial para tu cocina, siguiendo la famosa filosofía de menos es más. Incluye el pantry, las sillas, y las alacenas."
+        }, 
+
+        {   "id":3,
+            "nombre":"Comedor 8 puestos",
+            "foto": "/img/Inicio/Comedor-1.webp",
+            "descripcion":"Este comedor te ofrece amplitud y comodidad, ideal para una familia grande. Su mesa es de forma rectanglar."
+        }, 
+
+        {   "id":4,
+            "nombre":"Comedor 4 puestos",
+            "foto": "/img/Inicio/Comedor-2.webp",
+            "descripcion":"Este comedor te ofrece simplicidad y comodidad a la vez, ideal para una familia pequeña. Su mesa es de forma cicular."
+        }, 
+
+        {   "id":5,
+            "nombre":"Sala de Estar con sofá L",
+            "foto": "/img/Inicio/Sala_de_estar-2.webp",
+            "descripcion":"Esta sala de estar te incluye el Sofá estilo L, 2 mesas auxiliares o nidos, y una miniestantería."
+        }, 
+
+        {   "id":6,
+            "nombre":"Sala de Estar con sofá Ergonómico",
+            "foto": "/img/Inicio/Sala_de_estar-1.webp",
+            "descripcion":"Además del sofá, esta sala de estar te incluye 2 sillones ergonómicos y una mesa auxilir o nido."
+        }, 
+
+        {   "id":7,
+            "nombre":"Sala de Trabajo con escritorio estante gabetas",
+            "foto": "/img/Inicio/Escritorio-1.webp",
+            "descripcion":"Incluye el escritorio de vidrio negro, la silla blanca de oficina y el estante con sus gabetas."
+        }, 
+
+        {   "id":8,
+            "nombre":"Sala de trabajo estilo minimalista",
+            "foto": "/img/Inicio/Escritorio-2.webp",
+            "descripcion":"Esta sala de trabajo además del escritorio de madera crema, incluye una silla de oficina blanca, esencial para concentrarte, y todo al estilo minimalista."
+        }, 
+
+        {   "id":9,
+            "nombre":"Estantería para tus libros",
+            "foto": "/img/Inicio/Estanteria.webp",
+            "descripcion":"Esta estantería es perfecta para tu sala de estudio si eres amante de la literatura y los libros, incluye una escalera corrediza y un sofá pequeño."
+        }, 
+
+        {   "id":10,
+            "nombre":"Armario con luz indirecta",
+            "foto": "/img/Inicio/Armario-1.webp",
+            "descripcion":"Este armario de color gris cromado y color roble, tienen un diseño llamativo y muy organizado, además contiene una luz indirecta que le da un lujo espectacular."
+        }, 
+
+        {   "id":11,
+            "nombre":"Armario color roble",
+            "foto": "/img/Inicio/Armario-2.webp",
+            "descripcion":"Este armario con un tono roble, contiene todas las divisiones para que tengas muy organizada toda tu ropa, prendas y zapatos, dándote comidad y organización para tu forma de vestir."
+        }, 
+
+        {   "id":12,
+            "nombre":"Baño con luz indirecta",
+            "foto": "/img/Inicio/Baño-1.webp",
+            "descripcion":"Este baño incluye el mueble de lavamanos, los gavintes y el espejo con su luz indirecta."
+        }, 
+
+        {   "id":13,
+            "nombre":"Baño con tina",
+            "foto": "/img/Inicio/Baño-2.webp",
+            "descripcion":"Este baño incluye el mueble de lavamanos, los gavinetes, el espejo, y la tina, te da la oportunidad de tener una sesión de relajación, no te la pierdas."
+        }, 
+
+        {   "id":14,
+            "nombre":"Cama King estilo Chesterfield",
+            "foto": "/img/Inicio/Cama-1.webp",
+            "descripcion":"Esta cama King incluye 2 mesas de noche que combinan muy bien y hacen juego con su estilo, este es muy elegante y clásico, dando al mismo tiempo comodidad."
+        }, 
+
+        {   "id":15,
+            "nombre":"Cama Doble estilo Chesterfield",
+            "foto": "/img/Inicio/Cama-2.webp",
+            "descripcion":"Esta cama te incluye lo mismo que la anterior, sus mesas de noche y su estilo elegante, además de su comodidad, esta cama tiene un tamaño más pequeño."
+        }
+
+    ]
+}

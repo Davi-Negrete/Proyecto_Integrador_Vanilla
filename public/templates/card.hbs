@@ -1,0 +1,16 @@
+{{#each productos}}
+    <div class="card">
+        <article class="card__article">
+            <div class="card__image-container">
+                <img src="{{foto}}" alt="Cocina abierta con pantry includio" class="card__image">
+            </div>
+            <div class="card__content">
+                <h2 class="card__content__heading">{{nombre}}</h2>
+                <div class="card__content__description">
+                    <p>{{descripcion}}</p>
+                </div>
+            </div>
+        </article>
+        <div class="icono-bolsa"><a class="icono-bolsa__link" href="views/carrito.html"><i class="fa-solid fa-bag-shopping"></i></a></div>
+    </div>
+{{/each}}

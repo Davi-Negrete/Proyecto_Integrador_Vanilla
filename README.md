@@ -1,4 +1,4 @@
-## Proyecto Integrador:
+## Proyecto Integrador Vanilla:
 
 ## Luis David Negrete Otero
 

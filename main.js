@@ -18,16 +18,14 @@ const derechosReservadosText = ' TODOS LOS DERECHOS RESERVADOS.'
 
 footerCopyRight.innerHTML = `${copyrightSymbol} ${currentYear} <b>${muebleriaText} ${brandIcon}</b> -${derechosReservadosText}`
 
-
-
-
-
-
  
 //? Hago las peticiones Asincronicas a habndlebars para obtener las plantillas de las card de los Productos.
 //! Queremos eliminar todo el codigo html de las card para generarlo dinamicamente con handlebars.
 
+
 const start = async () => {
+
+    const url = import.meta.env.VITE_BACKEND_PRODUCTOS
     
     try {
         const respuesta = await fetch('templates/card.hbs')
@@ -45,7 +43,7 @@ const start = async () => {
         // A la platilla que me genera, le voy a pasar la data Me genera un string.
 
         // const respuestaBack = await fetch('http://localhost:8080/productos/') es local(del db-json), cuando lo suba a producccion(NETLIFY) no llega la data
-        const respuestaBack = await fetch('https://66b1b8af1ca8ad33d4f4e85a.mockapi.io/integrador/productos') //? utilizo MOCKAPI (servidor externo.) para subir el proyecto a netlify y se pueda subir la data a produccion
+        const respuestaBack = await fetch(url) //? utilizo MOCKAPI (servidor externo.) para subir el proyecto a netlify y se pueda subir la data a produccion
 
         if ( !respuesta.ok) {
             throw new Error('Lo sentimos, algo ha pasado con los productos', respuestaBack.status)

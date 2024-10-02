@@ -1,31 +1,27 @@
-main {
+.main__nosotros {
 
-    padding: 1rem;
+    padding: 0rem;
     background-color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     
     .container {
         padding: 1.5rem;
         background-color: #e8e8e8;
         border: transparent;
         border-radius: 2.5px;
+        margin: auto;
         margin-top: 1rem;
         margin-bottom: 1rem;
         box-shadow: 0 0 3px 3px #acacac;
+        margin: auto;
+        width: 88%;
 
-        @media screen and (min-width:450px) {
-            margin-left: 1.25rem ;
-            margin-right: 1.25rem ;
-        }
 
-        @media screen and (min-width:576px) {
-           margin: 1.5rem;
-        }
 
         @media screen and (min-width:1180px) {
             padding: 2rem;
             margin: auto;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
             width: 80%;
 
             &:hover {
@@ -60,16 +56,16 @@ main {
 
         &__descripcion {
             text-align: justify;
-            font-size: 0.925em;
-            letter-spacing: 0.01rem;
+            font-size: 1.075em;
+            
           
 
             @media screen and (min-width:576px) {
-                font-size: 1.05em;
+                font-size: 1.1em;
             }
 
             @media screen and (min-width:885px) {
-                font-size: 1.1em;
+                font-size: 1.1025em;
             }
 
             @media screen and (min-width:1180px) {

@@ -108,40 +108,43 @@
                 display: inline-block;
                 position: relative;
                 padding: 0.79rem 2.2rem;
-                text-decoration: none;
                 color: #4f4f4e;
                 font-weight: 700;
                 background-color: #cac6c6;
                 border-radius: 4px;
                 font-size: 0.95em;
-                
-        
+                text-decoration: none;
+              
                 &::after {
-                    content:'';
-                    position:absolute;
-                    width: 85%;
-                    height: 2px;
-                    bottom: 8px;
-                    left: 8px;
-                    background-color: #ffffff;
-                    transform: scale(0);
-                    transform-origin: bottom right;
-                    transition: transform 0.75s ease-out;
-                    
+                  content:'';
+                  position:absolute;
+                  width: 85%;
+                  height: 2px;
+                  bottom: 8px;
+                  left: 8px;
+                  background-color: #ffffff;
+                  transform: scale(0);
+                  transform-origin: bottom right;
+                  transition: transform 0.75s ease-out;
                 }
-        
+              
                 &:hover {
-                    background-color: #c6c3c3;
-                    border-radius: 4px;
+                  background-color: #292929;
+                  color: #fff;
+                  transition-duration: 1s;
                 }
-        
+              
                 &:hover::after {
-                    background-color: #ffffff;
-                    transform: scale(1);
-                    transform-origin: bottom left;
+                  background-color: #ffffff;
+                  transform: scale(1);
+                  transform-origin: bottom left;
                 }
-        
-        
+              
+                &:not(:hover){
+                  transition: background-color 1s; /* transición en mouse out */
+                  text-decoration: none;
+                }
+
             }
         
         }

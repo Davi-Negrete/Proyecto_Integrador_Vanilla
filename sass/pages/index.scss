@@ -3,7 +3,6 @@
     padding: 0;
 
     &__header {
-        text-align: center;
         padding: 0.25rem;
         background: url("/img/Inicio/Imagen-Inicio.webp")no-repeat;
         background-size: cover;
@@ -11,6 +10,7 @@
         margin-top: 0;
         position: relative;
         height: 14.25rem;
+
 
         @media screen and (min-width:426px) {
             
@@ -46,18 +46,42 @@
             right: 0;
         }
 
-
-        h1 {
-            font-size: 0.95em;
-            margin-bottom: 0.5rem;
+        
+        &__h1__h3 {
+            
+            text-align: center;
+            width: 70%;
+            margin: auto;
+           
+            font-size: 0.685em;
+            margin-top: 0.2rem;
             color: #fff;
-            margin-top: 0.45rem;
+            
             position: relative;
+            line-height: 1.15;
+
+            @media screen and (min-width:326px) {
+                
+                & {
+                    margin-top: 0.75rem;
+                }
+
+            }
+
+            @media screen and (min-width:400px) {
+             
+                & {
+                   margin-top: 0.3rem;
+                   font-size: 0.8em;
+                }
+
+            }
+
 
             @media screen and (min-width:426px) {
                 
                 & {
-                    font-size: 1.099em;
+                    font-size: 0.85em;
                 }
 
             }
@@ -65,7 +89,7 @@
             @media screen and (min-width: 480px) {
 
                 & {
-                    font-size: 1.156em;
+                    font-size: 0.9em;
                 }
 
             }
@@ -73,65 +97,50 @@
             @media screen and (min-width:535px) {
             
                 & {
-                    font-size: 1.213em;
+                    font-size: 0.95em;
                    
                 }
     
             }
 
-
         }
 
-        h2 {
-            font-size: 0.95em;
-            margin-bottom: 5.5rem;
-            margin-top: 0.55rem;
-            color: #fff;
-            position: relative;
 
-            @media screen and (min-width:426px) {
-                
-                & {
-                    font-size: 1.099em;
-                }
-
-            }
-
-            @media screen and (min-width:480px) {
-
-                & {
-                    font-size: 1.156em;
-                }
-
-            }
-
-            @media screen and (min-width:535px) {
-            
-                & {
-                    font-size: 1.213em;
-                   
-                }
-    
-            }
-
-
-        }
-
-        h3 {
-            font-size: 0.95em;
-            color: #fff;
-            margin-top: 0;
-            margin-bottom: 0rem;
-            position: relative;
-            background-color: rgba(255, 148, 109, 0.6);
+        &__h3 {
+            margin-top: 6rem;
+            background-color: rgba(255, 148, 109, 0.452);
             border-radius: 5px;
-            padding: 0.25rem;
+            padding: 0.35rem;
+            font-size: 1.36em;
+            
+
+            @media screen and (min-width:340px) {
+                
+                & {
+                    padding: 0.35rem;
+                    margin-top: 5.5rem;
+                   
+                }
+
+            }
+
+            @media screen and (min-width:400px) {
+             
+                & {
+                    margin-top: 5rem;
+                    font-size: 1.42em;
+                    padding: 0.4rem;
+                }
+
+            }
+
 
             @media screen and (min-width:426px) {
                 
                 & {
-                    margin-top: 5.79rem;
-                    font-size: 1.099em;
+                    margin-top: 6.5rem;
+                    font-size: 1.44em;
+                    padding: 0.58rem;
                 }
 
             }
@@ -140,19 +149,33 @@
                 
                 & {
                     margin-top: 7.4rem;
-                    font-size: 1.156em;
-                    
-        
+                    font-size: 1.47em;
                 }
 
+            }
+
+            @media screen and (min-width:526px) {
+            
+                & {
+                    margin-top: 9rem;
+                }
+    
             }
 
             @media screen and (min-width:535px) {
             
                 & {
                     margin-top: 8.6rem;
-                    font-size: 1.213em;
+                    font-size: 1.48em;
                    
+                }
+    
+            }
+
+            @media screen and (min-width:555px) {
+            
+                & {
+                    margin-top: 10.6rem;
                 }
     
             }
@@ -243,30 +266,26 @@
                     right: 0;
                 }
 
-                h1 {
-                    color: #ffffff;
-                    position: relative;
+                &__h1__h3 {
+                   
+                    font-size: 1em;
+                    margin-top: -3rem;
+                    line-height: 1.2;
 
-                    font-size: 1.35em;
-                    margin-top: -2rem;
-                    margin-bottom: 0.8rem;
                     
-                    
-                      
                     @media screen and (min-width:740px) {
                      
                         & {
-                            font-size:  1.55em;
+                            font-size:  1.1em;
                         }
         
                     }
 
                 
-         
                     @media screen and (min-width:885px) {
                      
                         & {
-                            font-size: 1.6em;
+                            font-size: 1.15em;
                         }
          
                     }
@@ -274,7 +293,10 @@
                     @media screen and (min-width:1035px) {
                      
                         & {
-                           font-size: 1.63em;
+                           font-size: 1.28em;
+                           margin-top: -2rem;
+                           width: 63%;
+                           line-height: 2.5rem;
                         }
             
                    }
@@ -283,15 +305,18 @@
                    @media screen and (min-width:1180px) {
                          
                         & {
-                            font-size: 1.7rem;
+                            margin-top: -1rem; 
+                            font-size: 1.3em;
                         }
         
                     }    
     
-                    @media screen and (min-width:1325px) {
+                    @media screen and (min-width:1300px) {
                          
                         & {
-                            font-size: 1.75em;
+                            width: 55%;
+                            line-height: 3rem;
+                            font-size: 1.4em;
                         }
         
                     }    
@@ -300,9 +325,8 @@
                     @media screen and (min-width:1483px) {
                      
                         & {
-                            font-size: 2.2em;
-                            margin-top: 1rem;
-                            margin-bottom: 1.2rem;
+                            font-size: 1.45em;
+                            width: 50%;
                         }
         
                     }
@@ -310,91 +334,17 @@
 
                 }
 
-                h2 {
-                   
-                    color: #fff;
-                    position: relative;
-
-                    font-size: 1.35em;
-                    margin-top: 0.8rem;
-                    margin-bottom: 9.5rem;
-                    
-                    
-                    @media screen and (min-width:740px) {
-                     
-                        & {
-                            font-size: 1.5em;  
-                        }
-        
-                    }
-
-                      
-                    @media screen and (min-width:885px) {
-                     
-                        & {
-                            font-size: 1.566em;
-                        }
-        
-                    }
-
-                    @media screen and (min-width:1035px) {
-                     
-                        & {
-                            font-size: 1.62em;
-                        }
-            
-                   }
-    
-                   
-                   @media screen and (min-width:1180px) {
-                         
-                        & {
-                            font-size: 1.7em;
-                        }
-        
-                    }    
-    
-                    @media screen and (min-width:1325px) {
-                         
-                        & {
-                            font-size: 1.72em;
-                            margin-bottom: 0rem;
-                        }
-        
-                    }    
-
-                
-         
-                    @media screen and (min-width:1483px) {
-                     
-                        & {
-                            font-size: 2.2em;
-                            margin-top: 1rem;
-                            margin-bottom: 1.2rem;
-                        }
-         
-                    }
-
-                }
-
-                h3 {  
-                    color: #fff;
-                    position: relative;
-                    background-color: rgba(255, 148, 109, 0.518);
+                &__h3 {
+                    margin-top: 11rem;
                     border-radius: 5px;
+                    padding: 0.25rem;
                     font-size: 1.35em;
-                    margin-top: 10rem;
-                    margin-bottom: 0;
                     
-                   
-
                     @media screen and (min-width:740px) {
                      
                         & {
-                            font-size: 1.5em;
-                            margin-top: 13rem;
-                            margin-bottom: 0;
-
+                            padding: 0.5rem; 
+                            margin-top: 15rem;
                         }
         
                     }
@@ -403,9 +353,7 @@
                     @media screen and (min-width:885px) {
                      
                         & {
-                            font-size: 1.6em;
-                            margin-bottom: 0;
-                            margin-top: 16.5rem
+                            margin-top: 20rem;
                         }
         
                     }
@@ -413,58 +361,79 @@
                     @media screen and (min-width:1035px) {
                      
                         & {
-                            font-size: 1.6em;
+                            margin-top: 24rem;
                         }
             
-                    }
-
-                   @media screen and (min-width:1042px) {
-                     
-                        & {
-                            font-size: 1.65em;
-                        }
-        
-                    }
-
-                    @media screen and (min-width:1144px) {
-                     
-                        & {
-                            margin-top: 19rem;
-                        }
-        
-                    }
+                   }
+    
                    
                    @media screen and (min-width:1180px) {
                          
                         & {
-                            font-size: 1.7em;
-                            margin-top: 17.5rem;
+                            margin-top: 27rem;
+                        }
+        
+                    }
+
+                    @media screen and (min-width:1268px) {
+                         
+                        & {
+                            padding: 0.75rem;
+                        }
+        
+                    }
+
+                    @media screen and (min-width:1281px) {
+                         
+                        & {
+                            padding: 1.1rem;
+                        }
+        
+                    }
+                    
+                    @media screen and (min-width:1300px) {
+                         
+                        & {
+                            padding: 0.25rem;
                         }
         
                     }    
-    
+
                     @media screen and (min-width:1325px) {
                          
                         & {
-                            font-size: 1.72em;
-                            margin-top: 2.5rem;
+                            margin-top: 31rem;
                         }
         
-                    }    
+                    } 
                 
          
                     @media screen and (min-width:1483px) {
                      
                         & {
-                            margin-top: 1rem;
-                            margin-bottom: 1.2rem;
-                            font-weight: 500;
-                            padding: 0.5rem;
-                            font-size: 2.2em;
+                           padding: 1rem; 
                         }
-                        
+         
                     }
 
+                    
+                    @media screen and (min-width:1759px) {
+                     
+                        & {
+                           padding: 1.75rem; 
+                        }
+         
+                    }
+
+                    @media screen and (min-width:1807px) {
+                     
+                        & {
+                           padding: 2.2rem; 
+                        }
+         
+                    }
+
+                    
                 }
 
             }
